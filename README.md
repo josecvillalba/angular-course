@@ -1,1 +1,1 @@
-# angular-course
+# [angular-course](./docs/index.md)
