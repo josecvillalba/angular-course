@@ -1,3 +1,3 @@
 # angular-course
-[link to index](./docs/index.md)
+[link to github pages](https://josecvillalba.github.io/angular-course/)
 
