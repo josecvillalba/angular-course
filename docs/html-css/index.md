@@ -24,3 +24,4 @@ Technologies that drive the web:
 
 ### HTML5 TAGS [link](./tags.md)
 
+### Interactive elements [link](./html/interactive-elements/index.md)
