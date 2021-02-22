@@ -18,4 +18,4 @@ legend for a ```<details>``` element's disclosure box.
 </details>
 ```
 
-[html example](./html/interactive-elements/index.html)
+[html example](./interactive-elements/index.html)
