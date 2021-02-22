@@ -1,4 +1,4 @@
-# HTML5 & CSS index
+# HTML5 Index
 
 ## What is HTML?
 
