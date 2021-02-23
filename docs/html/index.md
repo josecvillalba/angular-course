@@ -56,3 +56,5 @@ Inline elements
 ### Interactive elements [link](./interactive-elements.md)
 
 ### HTML Entities [link](./html-entities.md)
+
+### Lists [link](./lists.md)
