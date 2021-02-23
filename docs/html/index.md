@@ -39,15 +39,16 @@ Quotes alternate if nested: `<p onclick="alert('hi')"></p>`
 
 ## HTML Content models
 Block-level elements
-- Render to begin in a new line (by default)
-- May contain inline or other block-level elements
-- Roughly flow Content (HTML5 category)
+- Render to begin in a new line (by default).
+- May contain inline or other block-level elements.
+- Roughly flow Content (HTML5 category).
+- Example of block elements include \<h1> and \<p> elements.
 
 Inline elements
-- Render on the same line (by default)
-- May only contain other inline elements
-- Roughly phrasing content (HTML5 category)
-
+- Render on the same line (by default).
+- May only contain other inline elements.
+- Roughly phrasing content (HTML5 category).
+- Example of inline elements include the \<b>, \<em> and \<img> elements.
 
 # Links
 
@@ -60,3 +61,5 @@ Inline elements
 ### Lists [link](./lists.md)
 
 ### Hyperlinks [link](./links.md)
+
+### Images [link](./images.md)
