@@ -5,12 +5,10 @@ The destination is specified using the href attribute.
 
 Example: `<a href="https://www.google.com">Search in Google</a>`
 
-&nbsp;
 ## External links
 
 External links are referenced by using absolute URLs.  
 
-&nbsp;
 ## Internal links
 
 Internal links are best referenced by using relative URLs instead of absolute ones.
@@ -24,17 +22,14 @@ Internal links are best referenced by using relative URLs instead of absolute on
 | Grandparent folder (2 levels up) | `<a href="../../index.html>Home</a>"` |  
 
 
-&nbsp;
 ## Email links (mailto:)
 
 `<a href="mailto:info@example.org">Email us!</a>`
 
-&nbsp;
 ## Opening links in a new window (target attribute)
 
 `<a href="https://www.google.com" target="_blank">Search in Google</a>`
 
-&nbsp;
 ## Linking to sections in a document
 
 Sections are identified by adding the attribute "id" to an HTML element.  
@@ -45,7 +40,6 @@ To Link to a section, the href attribute of the link starts with the symbol "#",
 
 Example: `<a href="#top">Back to top</a>`
 
-&nbsp;
 ## Links example
 
 [link](./links/links1.html)
