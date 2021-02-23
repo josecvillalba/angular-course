@@ -1,0 +1,133 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Tables</title>
+
+    <style>
+        .tablewithborder {
+            border-collapse: collapse;
+        }
+
+        .tablewithborder td {
+          border: 1px solid black;
+          padding: 10px;
+
+        }
+    </style>
+
+</head>
+<body>
+    
+    <h1>Tables</h1>
+
+    <p>Table without heading</p>
+    
+    <table>
+        <tr>
+            <td>one</td>
+            <td>two</td>
+            <td>three</td>
+        </tr>
+        <tr>
+            <td>four</td>
+            <td>five</td>
+            <td>six</td>
+        </tr>
+        <tr>
+            <td>seven</td>
+            <td>eight</td>
+            <td>nine</td>
+        </tr>
+    </table>
+
+    <p>Table with heading</p>
+    
+    <table>
+        <tr>
+            <th>one</th>
+            <th>two</th>
+            <th>three</th>
+        </tr>
+        <tr>
+            <td>four</td>
+            <td>five</td>
+            <td>six</td>
+        </tr>
+        <tr>
+            <td>seven</td>
+            <td>eight</td>
+            <td>nine</td>
+        </tr>
+    </table>
+
+    <p>Table with &lt;thead&gt;, &lt;tbody&gt; and &lt;tfoot&gt;</p>
+    
+    <table>
+        <thead>
+            <tr>
+                <th>one</th>
+                <th>two</th>
+                <th>three</th>
+            </tr>
+        </thead>
+        <tbody>
+            <tr>
+                <td>four</td>
+                <td>five</td>
+                <td>six</td>
+            </tr>
+            <tr>
+                <td>seven</td>
+                <td>eight</td>
+                <td>nine</td>
+            </tr>
+        </tbody>
+        <tfoot>
+            <tr>
+                <td>A</td>
+                <td>B</td>
+                <td>C</td>
+            </tr>
+
+        </tfoot>
+    </table>
+
+    <p>Table with colspan</p>
+    
+    <table class="tablewithborder">
+        <tr>
+            <td colspan="2">one</td>
+            <td>three</td>
+        </tr>
+        <tr>
+            <td>four</td>
+            <td>five</td>
+            <td>six</td>
+        </tr>
+        <tr>
+            <td>seven</td>
+            <td colspan="2">eight</td>
+        </tr>
+    </table>
+    
+    <p>Table with rowspan</p>
+    
+    <table class="tablewithborder">
+        <tr>
+            <td rowspan="2">one</td>
+            <td>three</td>
+        </tr>
+        <tr>
+            <td>four</td>
+        </tr>
+        <tr>
+            <td>seven</td>
+            <td>eight</td>
+        </tr>
+    </table>
+
+</body>
+</html>
