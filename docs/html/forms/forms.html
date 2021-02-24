@@ -1,0 +1,133 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Forms</title>
+</head>
+<body>
+    
+    <h1>Forms</h1>
+
+    <h2>Form 1 (method=GET)</h2>
+
+    <form action="#" method="GET" id="form1">
+        <p>
+            Username:
+            <input type="text" name="user">    
+        </p>
+        
+        <p>
+            Password:
+            <input type="password" name="pass">    
+        </p>
+
+        <p>
+            Comments:
+            <textarea name="comments"></textarea>
+        </p>
+
+        <p>
+            Please rate us:
+            <input type="radio" name="rating" value="1">1
+            <input type="radio" name="rating" value="2">2
+            <input type="radio" name="rating" value="3">3
+            <input type="radio" name="rating" value="4">4
+            <input type="radio" name="rating" value="5">5
+            <input type="radio" name="rating" value="6">6
+            <input type="radio" name="rating" value="7">7
+            <input type="radio" name="rating" value="8">8
+            <input type="radio" name="rating" value="9">9
+            <input type="radio" name="rating" value="10">10
+        </p>
+
+        <p>
+            Check the cities you've visited:
+            <br>
+            <input type="checkbox" name="cities" value="Malaga">Málaga
+            <br>
+            <input type="checkbox" name="cities" value="Granada">Granada
+            <br>
+            <input type="checkbox" name="cities" value="Sevilla">Sevilla
+            <br>
+            <input type="checkbox" name="cities" value="Cádiz">Cádiz
+        </p>
+
+        <p>
+            Select your favourite beverage:
+            <select name="beverage"> 
+                <option value="water" selected="selected">Water</option>
+                <option value="orange">Orange juice</option>
+                <option value="tonic">Tonic water</option>
+            </select>
+        </p>
+
+        <p>
+            Select three colors:
+            <span title="*ctrl* key in Windows, *command* key in Mac">?</span>
+            <select size="6" multiple="multiple">
+                <option value="white">white</option>
+                <option value="yellow">Yellow</option>
+                <option value="orange">Orange</option>
+                <option value="green">Green</option>
+                <option value="blue">Blue</option>
+                <option value="purple">Purple</option>
+                <option value="brown">Brown</option>
+                <option value="black">Black</option>
+                <option value="pink">Pink</option>
+                <option value="grey">Grey</option>
+            </select>
+        </p>
+
+        <input type="submit" name="" value="Send (does nothing)">        
+
+    </form>
+
+
+
+
+    <h2>Form 2 (method=POST)</h2>
+
+    <form action="#" method="POST" id="form2">
+
+        <p>
+            Upload a file:
+            <input type="file" name="">
+        </p>
+
+
+        <fieldset>
+            <legend>HTML5 input fields</legend>
+            
+            <p>
+                Date:
+                <input type="date">
+            </p>
+                
+            <p>
+                Email:
+                <input type="email">
+                <br>
+            </p>
+
+            <p>
+                URL:
+                <input type="url">
+                <br>
+            </p>
+
+            <p>
+                Search:
+                <input type="search" placeholder="Type here">
+            </p>
+    
+        </fieldset>
+
+        <input type="image" src="../assets/img/submit-button-png-25798.png" alt="Submit form (does nothing)">
+
+    </form>
+
+
+</body>
+</html>

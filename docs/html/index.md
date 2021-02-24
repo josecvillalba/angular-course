@@ -65,3 +65,5 @@ Inline elements
 ### Images [link](./images.md)
 
 ### Tables [link](./tables.md)
+
+### Forms [link](./forms.md)
