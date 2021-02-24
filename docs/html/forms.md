@@ -144,3 +144,6 @@ Multi-line text input.
 `<input type="search" placeholder="">`  
 - The placeholder attribute is optional, and can be used on any text input. It's the text shown in the input until the user clicks on it.
 
+## Link to examples
+
+[link](./forms/forms.html)
