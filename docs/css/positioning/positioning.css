@@ -1,0 +1,40 @@
+* {
+    box-sizing: border-box;
+}
+
+div {
+    border: 3px solid green;
+    padding: 15px;
+    margin: 15px;
+}
+
+div.static {
+    position: static;
+}
+
+div.absolute {
+    position: absolute;
+    top: 40px;
+    left: 400;
+    width: 300px;
+}
+
+div.relative {
+    position:relative;
+    left:30px;
+    width: 400px;
+}
+
+div.fixed {
+    position: fixed;
+    bottom:0;
+    right:0;
+    width: 300px;
+}
+
+div.sticky {
+    position: -webkit-sticky; /* for safari */
+    position: sticky;
+    top: 0;
+    text-align: center;
+}

@@ -1,0 +1,11 @@
+.float-right {
+    float:right;
+    width: 275px;
+    border-top: 1px solid;
+    border-bottom: 1px solid;
+    background-color: lightgrey;
+}
+
+.clear-right {
+    clear:right;
+}
