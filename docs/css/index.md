@@ -105,3 +105,5 @@ In the `<head>` section of the webpage, add:
 ### Positioning elements [link](./css-positioning.md)
 
 ### Floating elements [link](./floating-elements.md)
+
+### Conflict resolution [link](./conflict-resolution.md)

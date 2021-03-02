@@ -1,0 +1,38 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" type="text/css" href="index2.css">
+    <title>Conflict Resolution 2</title>
+
+    <style>
+        .favorite {
+            color: red;
+            font-weight: bold;
+        }
+    </style>
+
+</head>
+<body>
+
+    <h1>Conflict resolution (2)</h1>
+
+    <p>The first element in the list has two rules that apply: 
+        .favorite (defined in the head style) and 
+        .favorite (defined in the external css file).
+    </p>
+
+    <p>
+        In this case, both rules have the same specificity, so the last rule
+        (the head-style rule) applies.
+    </p>    
+
+    <ul>
+        <li class="favorite">Whiskey and Ginger Ale</li>
+        <li>Wheat Beer</li>
+        <li>Mint Julip</li>
+     </ul>
+</body>
+</html>

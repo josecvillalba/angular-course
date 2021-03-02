@@ -1,0 +1,38 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" type="text/css" href="index1.css">
+    <title>Conflict Resolution 1</title>
+
+    <style>
+        .favorite {
+            color: red;
+            font-weight: bold;
+        }
+    </style>
+
+</head>
+<body>
+
+    <h1>Conflict resolution (1)</h1>
+
+    <p>The first element in the list has two rules that apply: 
+        .favorite (defined in the head style) and 
+        #summer-drinks li (defined in the external css file).
+    </p>
+
+    <p>
+        .favorite has a specificity of 0010, while #summer-drinks li 
+        has a specificity of 0101, so the last rule applies.
+    </p>
+
+    <ul id="summer-drinks">
+        <li class="favorite">Whiskey and Ginger Ale</li>
+        <li>Wheat Beer</li>
+        <li>Mint Julip</li>
+     </ul>
+</body>
+</html>
