@@ -103,6 +103,7 @@ In the `<head>` section of the webpage, add:
 There are other ways to add a style (head style and inline style), but are not recommended:
 
 - Head style
+
 ```
 <head>
     ...
