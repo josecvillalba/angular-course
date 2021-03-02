@@ -96,7 +96,30 @@ Where pseudo-class can be:
 A CSS stylesheet is a text file with one or more css rules.  
 
 In the `<head>` section of the webpage, add:  
-`<link rel="stylesheet" type="text/css" href="">`
+```
+<link rel="stylesheet" type="text/css" href="">
+```
+
+There are other ways to add a style (head style and inline style), but are not recommended:
+
+- Head style
+```
+<head>
+    ...
+    <style>
+        p {
+            color: red;
+        }
+    </style>
+    ...
+</head>
+```
+
+- Inline style
+
+```
+<p style="color: green;">This is a inline style</p>
+```
 
 # Links
 
