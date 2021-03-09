@@ -1,0 +1,58 @@
+/* @import url('https://fonts.googleapis.com/css?family=Raleway&display=swap'); */
+
+/**
+ * Styles.css
+ * ----------
+ * Styles for the demo page.
+ */
+a:link, a:visited, a:active {
+    color: #900;
+    text-decoration: none;
+}
+a:hover {
+    color: #c00;
+    text-decoration: underline;
+}
+
+ body {
+    background-color: #121212;
+    color: #919191;
+    font-family: sans-serif;
+}
+
+h1, h2, h3 {
+    text-align: center;
+}
+
+p {
+    margin: 10px auto;
+    line-height: 1.5em;
+    text-align: justify;
+}
+
+ul li {
+    padding: 5px;
+}
+
+.center {
+    text-align: center;
+}
+
+.code {
+    background-color: #333;
+    font-family: Courier;
+}
+
+.container {
+    display: block;
+    max-width: 940px;
+    margin: 0 auto;
+}
+
+.hidden {
+    display: none;
+}
+
+/* .raleway {
+    font-family: 'Raleway';
+} */

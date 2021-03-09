@@ -1,0 +1,11 @@
+{
+    "compilerOptions": {
+      "outDir": "../../docs/typescript/typechess",
+      "sourceMap": true,
+      "module": "commonjs",
+      "moduleResolution": "node",
+      "target": "es5",
+      "allowJs": true,
+      "resolveJsonModule": true
+    }
+}
