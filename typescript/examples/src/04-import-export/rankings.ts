@@ -1,5 +1,5 @@
 
-import { Ranking, printRankings } from './rankingsType';
+import { Ranking, printRankings  } from "./rankingsType";
 
 // 2 - var definition
 let position: number;
@@ -10,14 +10,14 @@ let hallOfFame: Array<Ranking> = [];
 
 // 3 - ranking creation
 position = 1;
-playerName = "Bruno Krebs";
+playerName = "Carlos Villalba";
 finishedGame = true;
 ranking = [position, playerName, finishedGame];
 hallOfFame.push(ranking);
 
 // 4 - creation of another ranking
 position = 2;
-playerName = "Maria Helena";
+playerName = "Chiquito de la Calzada";
 finishedGame = true;
 ranking = [position, playerName, finishedGame];
 hallOfFame.push(ranking);

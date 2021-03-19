@@ -1,6 +1,6 @@
 {
     "compilerOptions": {
-      "outDir": "../../docs/typescript/typechess",
+      "outDir": "./dist",
       "sourceMap": true,
       "module": "commonjs",
       "moduleResolution": "node",
