@@ -4,7 +4,7 @@
   "description": "Typescript examples",
   "main": "index.js",
   "scripts": {
-    "build": "tsc",
+    "build": "tsc --build tsconfig.json && tsc --build tsconfig.import-export.json",
     "test": "echo \"Error: no test specified\" && exit 1"
   },
   "keywords": [],
