@@ -1,15 +1,27 @@
-# Typescript Examples project
+# Typescript Examples
 
-To run each example, go to the /src/exampleXX folder and run:
-`npx ts-node filename.ts`
+## To run each example, go to the /src/exampleXX folder and run:
 
-To compile all the examples, run:
-`npm run build`
+```
+npx ts-node filename.ts
+```
+
+## To compile all the examples, run:
+
+```
+npm run build
+```
+
 The result will be in the "/dist" folder.
 
+To run the compiled js files:
+
+```
+node file.js
+```
 
 
-### How to install from scratch:
+### To install the project from scratch:
 
 - `npm init -y` (Node project)
 - `npm install typescript --save-dev`
