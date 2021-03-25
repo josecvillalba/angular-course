@@ -2,15 +2,15 @@ type Constructor2 = { new (...args: any[]): {} };
 
 function addFuelSizeToRocket<T extends Constructor2>(constructor: T) {
     return class extends constructor {
-        public fuel = 100;
-        public size = 80;
+        public fuel: number = 100;
+        public size: string = "80m";
     }
 }  
   
 @addFuelSizeToRocket
 class Rocket2 {
     public name: string = 'Apollo';
-    [x: string]: any; // Index signature for new properties from decorator
+    [x: string]: any; // Index signature for properties from decorator
 }
 
 let r2 = new Rocket2();
