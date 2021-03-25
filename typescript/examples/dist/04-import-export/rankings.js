@@ -27,4 +27,3 @@ System.register(["./rankingsType"], function (exports_1, context_1) {
         }
     };
 });
-//# sourceMappingURL=rankings.js.map

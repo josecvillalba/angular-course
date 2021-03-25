@@ -9,4 +9,3 @@
         return endsWithFileExtension.test(url) ? url : url + ".js";
     };
 })();
-//# sourceMappingURL=resolve.js.map
