@@ -7,6 +7,13 @@ Class decorator type annotation:
 type ClassDecorator = <TFunction extends Function>
   (target: TFunction) => TFunction | void;
 
+  @Params:
+      target: The constructor of the class.
+  @Returns:
+  If the class decorator returns a value, it will replace the class declaration.
+
+Thus, it’s suitable for extending an existing class with some properties or methods.
+
 */
 
 type Constructor = { new (...args: any[]): {} };
