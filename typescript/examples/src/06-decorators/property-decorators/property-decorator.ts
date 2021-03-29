@@ -13,31 +13,16 @@ type PropertyDecorator =
 
 */
 
-function writableProp (isWritable: boolean) {
-  
-  return function ( target: Object, propertyKey: string): any {
-  
-    let descriptor:PropertyDescriptor = {
-      writable:isWritable
-    }
-
-    return descriptor;
-
-  }
-
+function printKey(target: any, propertyKey: string) {
+  console.log(propertyKey)
 }
 
-
 class Car {
-  
-  @writableProp(false)
-  public model: string;
-
-  constructor(model:string) {
-    this.model = model;
+  @printKey
+  public brand: string;
+  constructor(brand: string){
+    this.brand = brand;
   }
-
 }
 
 let myCar = new Car('Tesla');
-console.log(myCar);
