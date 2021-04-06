@@ -79,13 +79,6 @@ function add(a: number, b:number):number{
     return a + b;
 }
 
-function greet(name: string):string{
-    return "I'm " + name;
-}
-
-function saveTheWorld():void{
-    console.log("The world is safe!");
-}
 
 var myFunction: (x: number, y:number) => number ;
 

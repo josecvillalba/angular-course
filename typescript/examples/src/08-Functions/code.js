@@ -57,12 +57,6 @@ console.log(ironman);
 function add(a, b) {
     return a + b;
 }
-function greet(name) {
-    return "I'm " + name;
-}
-function saveTheWorld() {
-    console.log("The world is safe!");
-}
 var myFunction;
 myFunction = add;
 console.log(myFunction(5, 5));
